@@ -1,0 +1,43 @@
+* {
+    background: rgb(202, 253, 255);
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    padding: .8em 1em calc(.8em + 3px);
+    text-decoration: none;
+    user-select: none;
+    border-radius: 3px;
+    background:  rgb(64, 145, 199);
+    box-shadow: 0 -2px rgb(64, 78, 199) inset;
+    transition: 0.2s;
+}
+
+.emoji {
+    font-size: 10rem;
+    user-select: none;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.btn:hover {
+    background: rgb(76, 113, 214);
+}
+
+.btn:active {
+    background: rgb(72, 48, 177);
+}
+
+.closed {
+    display: none;
+}
